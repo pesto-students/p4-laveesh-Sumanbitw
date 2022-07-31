@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+ margin: 0 auto; 
+ font-size: 2rem;
+ width: 30%;
+}
+
+section{
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.hero_image{
+  margin: auto;
+  width: 20rem;
+}
+
+.hero_image> img{
+  width: 100%;
+  min-height: 20rem;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.article{
+  width: 49%;
+}
+
+.form_container{
+ width: 50%;
+ margin: 0 auto;
+ padding: 1rem 0;
+}
+
+.form_input{
+  margin: 1rem 0;
+}
