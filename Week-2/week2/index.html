@@ -64,57 +64,65 @@
             </article>
         </section>
         <div class="form_container">
-          <form>
-            <div class="form_input">
+          <form>      
+            <h3>Form</h3>
             <label>
               Title
+            </label>
               <input type="radio"/>
+              <label>
               Mr.
             </label> 
             <label>
               <input type="radio"/>
               Mrs.
             </label>
-          </div>
           <div class="form_input">
             <label>
               First Name
-              <input type="text"/>
             </label>
+              <input type="text"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Last Name
-              <input type="text"/>
             </label>
+              <input type="text"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Email
-              <input type="email"/>
             </label>
+              <input type="email"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Phone Number
-              <input type="tel"/>
             </label>
+              <input type="tel"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Password
-              <input type="password"/>
             </label>
+              <input type="password"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Confirm Password
-              <input type="password"/>
             </label>
+              <input type="password"/>
+              <div class="error" id="error"></div>
           </div>
           <div class="form_input">
             <label>
               Country
+            </label>
               <select name="country" id="country">
                 <option>India</option>
                 <option>Canada</option>
@@ -122,18 +130,25 @@
                 <option>Switzerland</option>
                 <option>New Zealand</option>
               </select>
-            </label>
           </div>
           <div class="form_input">
             <label>
               <input type="checkbox"/>
               I agree to the <a href="www.google.com">terms and conditions</a>
             </label>
+            <div class="error" id="checkbox"></div>
           </div>
-          <input type="submit"/>
+          <div class="form_input form_button">
+            <input type="submit"/>
+          </div>
         </form>
       </div>
-      </div>
     </div>
+  </div>
+  <footer>
+    <div class="footer_container">
+      <h3>Made with ❤️ by Suman</h3>
+    </div>
+  </footer>
   </body>
 </html>
