@@ -1,6 +1,6 @@
 //Solution-1
 
-//Memoize
+//Apply Memoization
 
 function memoize(fn){
   let cache = {};
