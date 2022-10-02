@@ -1,0 +1,71 @@
+.box{
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+}
+.app{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.text{
+  position: absolute;
+  visibility: hidden;
+}
+
+.container:hover .text{
+  visibility: visible;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.one{
+  background-color: red;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+.container:hover .one{
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.two{
+  background-color: yellow;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+.container:hover .two{
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+}
+
+.three{
+  background-color: green;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+.container:hover .three{
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+
+.four{
+  background-color: blue;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+.container:hover .four{
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+
